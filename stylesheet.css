@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+header{
+  height: 70px;
+  background-color:rgba(34, 49, 52, 0.9);
+  color:white;
+  position:fixed;
+  top:0;
+  z-index: 10;
+  width:100%;
+}
+.header-left{
+  float:left;
+  padding-left: 20px;
+
+}
+.header-left a,span{
+  line-height: 70px;
+  font-size:30px;
+  font-weight:bold;
+  color:white;
+}
+.header-left span{
+
+}
+.header-right a{
+  float:left;
+  line-height: 70px;
+  color:white;
+  margin:0 5px;
+  display:block;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding:0 20px;
+  transition: all 0.5s;
+}
+.header-right a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right{
+  float:right;
+  margin-right:20px;
+
+}
+
+.top{
+  padding:70px 0px 100px 0;
+  background-image:url(img/yourou.jpg);
+  background-color:rgba(255,255,255,0.3);
+background-blend-mode:lighten;
+background-size: cover;
+}
+.top h1{
+  font-size:150px;
+  line-height: 150px
+}
+.l1{
+  margin-left: 150px;
+}
+.l2{
+  margin-left:500px;
+
+}
+h2{
+  margin-left:150px;
+}
+
+.join{
+  padding:40px 0px 50px 70px;
+
+}
+h3{
+  border-bottom:2px solid #ffd700;
+}
+
+}
+.join p{
+  margin-bottom:5px;
+}
+.sousinn{
+  width:60px;
+  height:40px;
+  box-shadow:0 3px #e6e6fa;
+}
+.sousinn:active{
+  box-shadow: none;
+  position:relative;
+  top:3px;
+}
+footer{
+  height:70px;
+  background-color: #66cdaa;
+
+}
+footer a{
+  color:white;
+  line-height: 70px;
+}
+.footer-left{
+  float:left;
+  font-size: 30px;
+  padding-left: 20px;
+}
+.footer-right{
+  float:right;
+  line-height: 70px;
+}
+.footer-right a{
+  float:left;
+  margin-right:30px;
+}
